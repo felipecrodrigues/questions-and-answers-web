@@ -63,7 +63,7 @@ const QuestionForm = (props) => {
                     name='Question'
                     required
                     value={question?.Question}
-                    placeholder='Enter your question'
+                    placeholder='Enter your question (at least two words, please)'
                     onChange={handleInputChange} />
 			</Form.Group>
             {question.Id > 0 ? 
